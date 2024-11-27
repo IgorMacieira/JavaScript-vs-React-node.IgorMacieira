@@ -21,6 +21,10 @@ const content = [
       "Frameworks populares para desenvolvimento front-end: React, Vue e Angular, por exemplo",
       "Node.js: Ambiente de execução JavaScript para backend",
       "jQuery: Biblioteca para simplificar a manipulação do DOM"
+    ],
+    [
+      "JavaScript: if (a === b) { a + b}",
+      "for (var i = 0; i < 5) {code}"
     ]
   ];
   //Get em array dos botões
@@ -44,6 +48,11 @@ const content = [
       id: 3,
       idName: 'btn-resources',
       get: document.getElementById("btn-resources")
+    },
+    {
+      id: 4,
+      idName: 'btn-exemples',
+      get: document.getElementById("btn-exemples")
     }
   ]
   
