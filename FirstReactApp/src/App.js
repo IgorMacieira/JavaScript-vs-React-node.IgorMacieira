@@ -20,9 +20,12 @@ const content = [
     "React Native (construção de apps para mobiles)"
   ],
   [
-    "Projetos 'Vanilla JavaScript' requer uma programação imperativa, isto é, necessita-se da descriação de cada detalhe, passo-a-passo para alcançar um resultado",
-    "Já o React, abrange a programação declarativa, isto que dizer que: com o React, você define seu objetivo e o React definie (se resolve) para alcançá-lo!"
-  ]
+    "Airbnb",
+    "Uber",
+    "Microsoft",
+  ],
+ 
+
 ];
 
 export default function App() {
@@ -57,6 +60,12 @@ export default function App() {
             onClick={() => setActiveContentIndex(2)}
           >
             Assunto Relacionado e Referência
+          </button>
+          <button
+            className={activeContentIndex === 3 ? "active" : ""}
+            onClick={() => setActiveContentIndex(3)}
+          >
+            Empresas que usam o React 
           </button>
         </menu>
         <div id="tab-content">
